@@ -40,7 +40,8 @@
         <section class="hero">
             <div class="hero-container container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                <button class="button" type="button">Order Service</button>
+                <button class="button" type="button" data-modal-open>Order Service</button>
+                
             </div>
         </section>
         <!--Features Section-->
@@ -326,7 +327,7 @@
             </div>
         </section>
     </main>
-   
+
     <footer class="footer">
         <div class="footer-container container">
         <div class="footer-description">
@@ -384,9 +385,9 @@
         </div>
         </div>
     </footer>
-    <div class="backdrop visually-hidden">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close">
+            <button type="button" class="modal-close" data-modal-close>
                 <svg class="modal-input-close" width="8" height="8">
                     <use href="./images/iconsmodal.svg#icon-closeblack"></use>
                 </svg>
@@ -402,7 +403,7 @@
                         </svg>
                     </div>
                 </div>
-                
+    
                 <div class="modal-field">
                     <label for="user-phone" class="modal-label">Phone</label>
                     <div class="input-wrap">
@@ -411,7 +412,7 @@
                             <use href="./images/iconsmodal.svg#icon-phoneblack"></use>
                         </svg>
                     </div>
-                    
+    
                 </div>
                 <div class="modal-field">
                     <label for="user-email" class="modal-label">Email</label>
@@ -421,35 +422,33 @@
                             <use href="./images/iconsmodal.svg#icon-emailblack"></use>
                         </svg>
                     </div>
-                    
+    
                 </div>
                 <div class="modal-field">
                     <label for="user-comment" class="modal-label">Comment</label>
-                    
-                        <textarea name="user-comment" id="user-comment" class="modal-textarea" placeholder="Text input"></textarea> 
+    
+                    <textarea name="user-comment" id="user-comment" class="modal-textarea"
+                        placeholder="Text input"></textarea>
                 </div>
-                
-                    <input 
-                    type="checkbox" 
-                    name="policy" 
-                    id="policy" 
-                    class="modal-check visually-hidden" 
-                    value="true"> 
-                    <label for="policy" class="modal-check-text"><span class="modal-check-item">
+    
+                <input type="checkbox" name="policy" id="policy" class="modal-check visually-hidden" value="true">
+                <label for="policy" class="modal-check-text"><span class="modal-check-item">
                         <svg class="icon-check" width="10" height="8">
-                         <use href="./images/iconsmodal.svg#icon-check"></use>
+                            <use href="./images/iconsmodal.svg#icon-check"></use>
                         </svg>
-                    </span>I accept the terms and conditions of the <a class="policy-href" href="">Privacy Policy</a></label>
+                    </span>I accept the terms and conditions of the <a class="policy-href" href="">Privacy
+                        Policy</a></label>
                 <div class="modal-field"></div>
                 <button class="modal-button" type="submit">Send</button>
             </form>
         </div>
+    
     </div>
-    <div></div>
+    
    
     
     
 
-    
+<script src="./js/modal.js"></script>
 </body>
 </html>
