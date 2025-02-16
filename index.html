@@ -427,11 +427,15 @@
                     type="checkbox" 
                     name="policy" 
                     id="policy" 
-                    class="modal-check" 
+                    class="modal-check visually-hidden" 
                     value="true"> 
-                    <label for="policy" class="modal-check-text"><span class="modal-check-item"></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                    <label for="policy" class="modal-check-text"><span class="modal-check-item">
+                        <svg class="icon-check" width="10" height="8">
+                         <use href="./images/iconsmodal.svg#icon-check"></use>
+                        </svg>
+                    </span>I accept the terms and conditions of the <a class="policy-href" href="">Privacy Policy</a></label>
                 <div class="modal-field"></div>
-                <button type="submit">Send</button>
+                <button class="modal-button" type="submit">Send</button>
             </form>
         </div>
     </div>
