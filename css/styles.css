@@ -639,9 +639,9 @@ list-style: none;
     pointer-events: none;*/
   }
   .is-open {
-   opacity: 1;
+   /*opacity: 1;
     visibility: visible;
-    pointer-events: auto;
+    pointer-events: auto;*/
 }
   .modal {
     width: 408px;
