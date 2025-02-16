@@ -486,7 +486,8 @@ footer {
 }
 .footer-container {
         display: flex;
-        align-items: baseline;
+        justify-content: space-between;
+        align-items: center;
         
 }
 .footer-description {
@@ -521,6 +522,11 @@ footer {
 .footer-social .social-link {
     color: #FFFFFF;
 }
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
 .social-title {
 display: block;
     font-weight: 500;
@@ -544,6 +550,79 @@ list-style: none;
 .footer-link:focus {
   background-color: #31D0AA;
   }
+
+  .footer-sub {
+    display: flex;
+    
+    
+    
+    
+
+  }
+  .footer-sub-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 16px;
+    margin-right: 24px;
+    display: flex;
+  }
+  .footer-input::placeholder {
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  .footer-btn:hover, .footer-btn:focus {
+    background-color: #31D0AA;
+  }
+  
+  .footer-btn {
+    min-width: 165px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    gap: 16px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms
+        cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    cursor: pointer;
+
+  }
+  .footer-sending-icon {
+    fill: #FFFFFF;
+  }
+
+
 
   .backdrop {
     width: 100%;
