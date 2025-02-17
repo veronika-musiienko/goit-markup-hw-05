@@ -676,12 +676,12 @@ list-style: none;
   }
 
 
-  .modal-input-close {
+  .modal-icon-close {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .modal-input-close:hover,
-  .modal-input-close:focus {
+  .modal-icon-close:hover,
+  .modal-icon-close:focus {
     fill: #ffffff;
   }
   
@@ -692,8 +692,8 @@ list-style: none;
     border: none;
 }
 
-.modal-close:hover .modal-input-close,
-.modal-close:focus .modal-input-close {
+.modal-close:hover .modal-icon-close,
+.modal-close:focus .modal-icon-close {
     fill: #ffffff;
     background-color: #404bbf;
     border: none;
@@ -734,10 +734,6 @@ list-style: none;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
-
-  
- 
 
 
   .modal-label {
