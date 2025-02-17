@@ -673,13 +673,12 @@ list-style: none;
     right: 24px;
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
   }
 
   .modal-close:hover, 
   .modal-close:focus {
     background-color: #404BBF;
-    border-color: transparent;
+    border: none;
     outline: none;
   }
 
@@ -687,10 +686,8 @@ list-style: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .modal-close:hover .modal-input-close,
-  .modal-close:focus .modal-input-close {
-      fill: #FFFFFF;
-  }
+
+
   
   .modal-title {
     font-family: 'Roboto', sans-serif;
