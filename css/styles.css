@@ -486,8 +486,7 @@ footer {
 }
 .footer-container {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        align-items: baseline;
         
 }
 .footer-description {
@@ -552,7 +551,7 @@ list-style: none;
   }
 
   .footer-sub {
-    display: flex;
+    display: block;
     
     
     
@@ -572,6 +571,7 @@ list-style: none;
   }
   .footer-form {
     display: flex;
+    align-items: center;
     gap: 24px;
   }
   
