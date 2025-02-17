@@ -676,26 +676,15 @@ list-style: none;
   }
 
 
-  .modal-icon-close {
-    fill: #2e2f42;
+.modal-icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .modal-icon-close:hover,
-  .modal-icon-close:focus {
-    fill: #ffffff;
-  }
-  
-  
+}
+
+
 .modal-close:hover,
 .modal-close:focus {
     background-color: #404bbf;
-    border: none;
-}
-
-.modal-close:hover .modal-icon-close,
-.modal-close:focus .modal-icon-close {
-    fill: #ffffff;
-    background-color: #404bbf;
+    fill: #FFFFFF;
     border: none;
 }
 
