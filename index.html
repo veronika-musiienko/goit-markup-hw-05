@@ -14,7 +14,8 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"> 
-    <link rel="stylesheet" href="./css/styles.css"> 
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
 </head>
 <body class="body">
     <header class="header">
@@ -27,12 +28,17 @@
                 <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
             </ul>
          </nav>
-            <address class="header-contact">
-                <ul class="header-list">
-                    <li class="header-item"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-                    <li class="header-item"><a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
+         <button class="burger-icon" type="button">
+            <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-Group"></use>
+            </svg>
+        </button>
+        <address class="header-contact">
+            <ul class="header-list">
+                <li class="header-item"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+                <li class="header-item"><a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
         </div>
     </header>
     <main>

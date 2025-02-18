@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -521,13 +522,9 @@ footer {
 .footer-social .social-link {
     color: #FFFFFF;
 }
-.footer-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-right: 80px;
-}
+
 .social-title {
-display: block;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
